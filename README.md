@@ -15,3 +15,5 @@ use ansible deployment nginx
     │           └── main.yaml
     └── site.yaml
 
+# 安装命令
+ansible-playbook -i host site.yaml
